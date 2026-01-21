@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="gcp-cli",
+    name="gcp-cli-ai",  # Unique name for PyPI
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="AI-powered CLI for executing GCP commands",
+    author="Govind",  # TODO: Update with your name
+    author_email="gopichinnaraj123@gmail.com",  # TODO: Update with your email
+    description="AI-powered CLI for executing GCP commands using natural language",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/gcp-cli",
+    url="https://github.com/Cgraj07/gcp-cli",  # TODO: Update with your GitHub URL
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -38,4 +38,5 @@ setup(
             "gcp-cli=gcp_cli.cli:main",
         ],
     },
+    keywords="gcp google-cloud cli ai gemini vertex-ai automation cloud devops",
 )

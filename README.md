@@ -26,7 +26,7 @@ An AI-powered command-line interface for executing Google Cloud Platform command
 
 ```bash
 # Clone the repository
-cd /Users/govind/Desktop/Govind/projects/Cloud_AI
+git clone https://github.com/Cgraj07/gcp-cli.git
 
 # Install dependencies
 pip install -r requirements.txt

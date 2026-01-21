@@ -1,0 +1,20 @@
+# Example GCP CLI Configuration File
+
+# GCP Project Settings
+project_id: cs-agentspace-demos
+location: us-central1
+
+# Authentication: Uses Application Default Credentials (ADC)
+# Run: gcloud auth application-default login
+
+# AI Model Settings
+model: gemini-3-flash-preview
+max_output_tokens: 8192
+temperature: 1.0
+top_p: 0.95
+
+# Execution Settings
+preview_before_execute: true
+
+# Logging
+log_level: INFO
